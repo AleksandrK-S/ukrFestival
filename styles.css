@@ -1,0 +1,129 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 96.9%;
+    height: 100vh;
+}
+
+/* Center container */
+
+.center-container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Wrapper */
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header */ 
+
+/* First Part Of Header */
+
+.header {
+    background-color: #F1FDFF;
+    background-image: url("./assets/images/medium-shot-woman-holding-ukranian-flag\ 1.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-bottom: 11%;
+}
+
+.container-with-first-part-of-header {
+    display: flex;
+    margin-top: 3%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .nav-in-header {} */
+
+.list {
+    display: flex;
+}
+
+.list-element {
+    margin-left: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.url-nav-in-header {
+    text-decoration: none;
+    color: black;
+    transition: all .3s ease-in-out;
+}
+
+.url-nav-in-header:hover {
+    color: rgb(200, 28, 28);
+}
+
+.nav-button-in-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    background-color: #7AE5FD;
+    border: 1px solid #7AE5FD;
+    border-radius: 87px;
+    cursor: pointer;
+    width: 208px;
+    height: 59px;
+    transition: all .3s ease-in-out;
+}
+
+.nav-button-in-header:hover {
+    background-color: #69c1d5;
+    border: 1px solid #69c1d5;
+}
+
+/* Second Part Of Header */
+
+.container-with-content-in-second-part-of-header {
+    float: left;
+    margin-top: 3%;
+}
+
+.content-festival {
+    width: 698px;
+    height: 264px;
+    font-family: 'Montserrat';
+    font-weight: bolder;
+    font-size: 93px;
+    line-height: 94.9%;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #9AD2DE;
+}
+
+.content-holiday {
+    margin-top: 3%;
+    font-size: 20px;
+    line-height: 120%;
+}
+
+/* Main */
+
+.main {
+    flex-grow: 1;
+}
+
+/* Footer */
+
+.footer {
+    width: 100%;
+}
