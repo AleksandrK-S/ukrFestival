@@ -130,7 +130,7 @@ body {
 
 /* Program Festival */
 
-.container-program-festival {
+.headers-in-main {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -211,6 +211,7 @@ h3 {
 
 .section2 {
     background-image: url("./assets/images/musicBand.png");
+    background-size: 39%;
     background-repeat: no-repeat;
     background-position: 95%;
     margin-top: 7%;
@@ -248,7 +249,7 @@ h3 {
     border: 1px solid #7AE5FD;
     border-radius: 87px;
     cursor: pointer;
-    width: 208px;
+    width: 225px;
     height: 59px;
     transition: all .1s ease-in-out;
 }
@@ -264,24 +265,248 @@ h3 {
 
 /* Section 4 */
 
-.section4 {
-    background-color: #F2FEFF;
-    margin-top: 15%;
-    margin-bottom: 15%;
-}
-
-.container-with-content-in-section4 {
-    padding: 40px 40px 40px 40px;
+.img-bg-in-section4 {
+    position: relative;
+    margin-left: 7%;
+    margin-top: 5%;
+    z-index: 0;
 }
 
 .paragraph-in-section4 {
+    position: relative;
+    background-color: #F2FEFF;
+    margin-top: -32%;
+    width: 100%;
     font-size: 27.271px;
     line-height: 120%;
     color: #000000;
+    padding: 80px 80px 80px 80px;
+    z-index: 1;
 }
+
+.img-gift-in-section4 {
+    position: relative;
+    margin-left: 60%;
+    margin-top: -22%;
+    z-index: 2;
+}
+
+/* How to entry */
+
+.headers-in-main2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12%;
+}
+
+/* Money */
+
+.container-with-money {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 6%;
+}
+
+.paragraph-with-money {
+    font-size: 27px;
+    line-height: 120%;
+    color: #000000;
+}
+
+.list-with-numbers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5%;
+}
+
+.list-with-numbers-element {
+    margin-left: 5%;
+    margin-right: 5%;
+    position: relative;
+    font-size: 60px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.list-with-numbers-element:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 54%;
+    right: -15%;
+    transform: translateY(-50%);
+    width: 2px;
+    height: 80%;
+    background-color: #9AD2DE;
+}
+
+/* Button donation */
+
+.container-with-button-donation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6%;
+}
+
+.button-donation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    background-color: #7AE5FD;
+    border: 1px solid #7AE5FD;
+    border-radius: 87px;
+    cursor: pointer;
+    width: 225px;
+    height: 59px;
+    transition: all .1s ease-in-out;
+}
+
+.button-donation:hover {
+    background-color: #69c1d5;
+    border: 1px solid #69c1d5;
+}
+
+.button-donation:active {
+    transform: translateY(3px);
+} 
 
 /* Footer */
 
 .footer {
     width: 100%;
+    background-color: #F9FADF;
+}
+
+/* First content in footer */
+
+.container-with-first-content-in-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts-header {
+    margin-top: 6%;
+}
+
+.container-with-contacts {
+    margin-right: 20%;
+    margin-top: 5%;
+}
+
+.img-phone {
+    margin-bottom: 4%;
+}
+
+.container-with-phone-nummber {
+    margin-bottom: 20%;
+}
+
+.paragraph-with-phone-number {
+    font-size: 20px;
+    line-height: 120%;
+    color: #000000;
+}
+
+.phone-number {
+    font-size: 20px;
+    line-height: 120%;
+    color: #000000;
+    font-weight: 600;
+}
+
+/* Second content in footer */
+
+.container-with-second-content-in-footer {
+    background-color: white;
+    margin-top: 9%;
+    margin-bottom: 5%;
+    padding: 65px 35px 65px 35px;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+.container-with-subscribe {
+    display: flex;
+}
+
+.container-with-last-elements-in-footer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+
+.subscribe {
+    padding-left: 16%;
+    font-size: 27px;
+    line-height: 120%;
+    color: #000000;
+}
+
+.container-with-inputs {
+    margin-top: 15%;
+    margin-left: 16%;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-username {
+    margin-bottom: 5%;
+    padding-left: 5%;
+    background-color: #F9FADF;
+    border-color: #F9FADF;
+    width: 506px;
+    height: 66px;
+    border: 1px solid #F9FADF;
+    border-radius: 50px;
+    font-size: 16px;
+}
+
+.input-email {
+    margin-bottom: 5%;
+    padding-left: 5%;
+    background-color: #F9FADF;
+    border-color: #F9FADF;
+    width: 506px;
+    height: 66px;
+    border: 1px solid #F9FADF;
+    border-radius: 50px;
+    font-size: 16px;
+}
+
+.container-with-button-subscribe {
+    margin-left: 16%;
+}
+
+.button-subscribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    background-color: #7AE5FD;
+    border: 1px solid #7AE5FD;
+    border-radius: 87px;
+    cursor: pointer;
+    width: 506px;
+    height: 59px;
+    transition: all .1s ease-in-out;
+}
+
+.button-subscribe:hover {
+    background-color: #69c1d5;
+    border: 1px solid #69c1d5;
+}
+
+.button-subscribe:active {
+    transform: translateY(3px);
 }
