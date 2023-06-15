@@ -75,7 +75,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Montserrat';
+     font-family: "Montserrat", sans-serif; 
     font-size: 18px;
     background-color: #7AE5FD;
     border: 1px solid #7AE5FD;
@@ -463,7 +463,6 @@ h3 {
     margin-bottom: 5%;
     padding-left: 5%;
     background-color: #F9FADF;
-    border-color: #F9FADF;
     width: 506px;
     height: 66px;
     border: 1px solid #F9FADF;
@@ -475,7 +474,6 @@ h3 {
     margin-bottom: 5%;
     padding-left: 5%;
     background-color: #F9FADF;
-    border-color: #F9FADF;
     width: 506px;
     height: 66px;
     border: 1px solid #F9FADF;
